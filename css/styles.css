@@ -1,0 +1,74 @@
+.navbar {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4)
+}
+
+.navbar-brand { 
+    font-size: 35px;
+    font-family: 'Comforter', cursive; 
+    font-weight: 700;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #b2bf61;
+    background: -webkit-linear-gradient(to right, #2fe46b, #1488cc);
+    background: linear-gradient(to right, #2fb32f, #1488cc);
+}
+
+.card {
+    width: 18rem;  /** 16px * 18  */
+}
+
+.btn-card-secondary {
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    color: white;
+}
+
+.btn-card-secondary:hover {
+    color: rgb(44, 44, 44);
+}
+
+.card-personaje {
+    background-color: white;
+    box-shadow: 4px 4px 5rem rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-top: 10rem;
+    padding: 3rem 0rem 0rem 0re
+
+    
+}
+
+.personaje {
+    height: 350px;
+    width: 350px;
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    z-index: 1;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.4);
+    border-radius: 10%;
+    left: 100px;
+    top: 10px;
+    transform: translateY(-25%);
+    border-color: black;
+}
+
+.personaje img {
+    height: 200px;
+    width: 200px;
+    top: 2%;
+    border-radius: 100%;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: goldenrod;
+    color: white;
+}
